@@ -74,9 +74,11 @@ button:focus {
   color: white;
   text-decoration: none;
   padding: 20px 20px;
-  border: 1px solid gray;
-  background-color: red;
-  opacity: 0.4;
+  border: 2px solid gray;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(0, 0, 0, 0.9585084034) 26%, rgb(0, 212, 255) 100%);
+  opacity: 0.5;
+  transition: 0.7s;
 }
 .inner a:hover {
   opacity: 1;
