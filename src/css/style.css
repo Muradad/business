@@ -46,7 +46,7 @@ button:focus {
   position: absolute;
   bottom: 45%;
   right: 2%;
-  left:2%;
+
   display: flex;
   justify-content: space-between;
   width: 100%;
