@@ -45,8 +45,8 @@ button:focus {
 .indicators {
   position: absolute;
   bottom: 45%;
-  right: 25px;
-  left:25px;
+  right: 2%;
+  left:2%;
   display: flex;
   justify-content: space-between;
   width: 100%;
