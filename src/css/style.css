@@ -16,13 +16,6 @@
   min-height: 100vh;
   color: black;
 }
-.container img {
-  width: 50%;
-  position: absolute;
-  top: -122px;
-  left: 50%;
-  transform: rotate(-100deg);
-}
 .container .content strong {
   border-bottom: 1px solid black;
 }
