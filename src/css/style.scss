@@ -3,11 +3,17 @@
     margin: 0;
     padding: 0;
 }
+
+#ulvuleman{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(55,214,97,0.9080882352941176) 24%, rgba(0,212,255,1) 100%);
+}
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    color: black;
     .content{
         strong{
             border-bottom: 1px solid black;
