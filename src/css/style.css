@@ -10,6 +10,9 @@
   align-items: center;
   min-height: 100vh;
 }
+.container .content strong {
+  border-bottom: 1px solid black;
+}
 .container .ulvu {
   width: 100%;
   max-width: 500px;
@@ -37,12 +40,9 @@
   text-align: center;
 }
 .container .count-content ul {
-  width: 100%;
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   list-style: none;
   padding: 0;
 }
@@ -56,7 +56,6 @@
 }
 .container .count-content ul li:nth-child(1) {
   font-size: 4rem;
-  margin-left: 50px;
 }
 .container .count-content ul li:nth-child(2) {
   font-size: 2rem;
@@ -78,10 +77,13 @@
 }
 
 @media (max-width: 768px) {
+  .zulfu {
+    text-align: center;
+  }
   .container .ulvu {
     max-width: 70%;
   }
   .container .ulvu #leman {
-    margin-left: 60%;
+    margin-left: 55%;
   }
 }/*# sourceMappingURL=style.css.map */

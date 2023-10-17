@@ -8,6 +8,11 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    .content{
+        strong{
+            border-bottom: 1px solid black;
+        }
+    }
   
     .ulvu {
       width: 100%;
@@ -42,12 +47,9 @@
   
     .count-content {
       ul {
-        width: 100%;
         border-bottom: 1px solid gray;
         border-top: 1px solid gray;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
         list-style: none;
         padding: 0;
         &:nth-child(1){
@@ -62,7 +64,6 @@
   
           &:nth-child(1) {
             font-size: 4rem;
-           margin-left: 50px;
           }
   
           &:nth-child(2) {
@@ -94,11 +95,20 @@
   }
   
   @media (max-width: 768px) {
+    .zulfu{
+       
+        text-align: center;
+      
+    }
     .container {
+        .count-content{
+            
+            
+        }
       .ulvu {
         max-width: 70%;
         #leman{
-           margin-left: 60%;
+           margin-left: 55%;
         }
       }
     }
