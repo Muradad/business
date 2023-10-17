@@ -37,6 +37,7 @@
   text-align: center;
 }
 .container .count-content ul {
+  width: 100%;
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
   display: flex;
