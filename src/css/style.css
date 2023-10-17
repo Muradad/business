@@ -5,8 +5,8 @@
 }
 
 #ulvuleman {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(55, 214, 97, 0.9080882353) 24%, rgb(0, 212, 255) 100%);
+  background: rgb(103, 130, 125);
+  background: radial-gradient(circle, rgb(103, 130, 125) 21%, rgba(97, 69, 52, 0.9360994398) 66%);
 }
 
 .container {
